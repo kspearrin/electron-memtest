@@ -13,9 +13,15 @@ export class LoginComponent {
     }
 
     submit() {
-        // Clearing the properties like this doesn't seem to help
-        // this.username = null;
-        // this.password = null;
+        let usernameBuffer = Buffer.from(this.username, 'utf8');
+        let passwordBuffer = Buffer.from(this.password, 'utf8');
+
+        // Do some Node stuff with the buffers...
+
+        // Now done with the buffers. Clearing the properties like this
+        // doesn't seem to help.
+        usernameBuffer = null;
+        passwordBuffer = null;
 
         this.router.navigate(['/account']);
     }
