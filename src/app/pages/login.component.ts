@@ -13,12 +13,10 @@ export class LoginComponent {
     }
 
     submit() {
-        if (this.username === 'testuser' && this.password === 'correct-password-123') {
-            // Clearing the properties like this doesn't seem to help
-            this.username = null;
-            this.password = null;
+        // Clearing the properties like this doesn't seem to help
+        // this.username = null;
+        // this.password = null;
 
-            this.router.navigate(['/account']);
-        }
+        this.router.navigate(['/account']);
     }
 }
