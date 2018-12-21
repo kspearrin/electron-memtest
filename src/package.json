@@ -1,0 +1,16 @@
+{
+  "name": "mem-test",
+  "productName": "MemTest",
+  "description": "Test Electron memory dumps.",
+  "version": "1.0.0",
+  "author": "Kyle Spearrin",
+  "homepage": "https://www.kylespearrin.com",
+  "license": "GPL-3.0",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kspearrin/electron-memtest"
+  },
+  "dependencies": {
+  }
+}

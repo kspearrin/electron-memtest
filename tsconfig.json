@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "es6",
+    "target": "ES2016",
+    "allowJs": true,
+    "sourceMap": true,
+    "types": [],
+    "baseUrl": ".",
+    "paths": {
+      "@angular/*": [
+        "node_modules/@angular/*"
+      ],
+      "electron": [
+        "node_modules/electron"
+      ],
+      "electron-log": [
+        "node_modules/electron-log"
+      ],
+      "node": [
+        "node_modules/@types/node"
+      ],
+    }
+  },
+  "angularCompilerOptions": {
+    "preserveWhitespaces": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+  ]
+}
